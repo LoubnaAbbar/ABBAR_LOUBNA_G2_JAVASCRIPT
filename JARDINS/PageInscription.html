@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Inscription - Les Jardins Éternels</title>
+</head>
+<body>
+
+    <header>
+        <a href="PageInscription.html"><img class="head" src="image/question.png" alt="Icône de question" /></a>
+        <img class="head" src="image/fleurg.png" alt="" />
+        <a href="PageAcceuil.html"><img class="headimg" src="image/logo.png" alt=""/></a>
+        <img class="head" src="image/fleurd.png" alt="" />
+        <img class="head" src="image/panier.png" alt="" />
+        <button id="toggle-dark-mode">Mode Sombre</button> <!-- Bouton pour changer de mode -->
+    </header>
+    
+<div class="bodyInscription">
+
+    <main>
+        <form id="myForm" action="#">
+            <h2>Inscription</h2>
+            <ul id="errorList" style="color: red;"></ul> <!-- Liste des erreurs -->
+        
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo">
+        
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password">
+        
+            <label for="confirmPassword">Confirmez le mot de passe</label>
+            <input type="password" name="confirmPassword" id="confirmPassword">
+        
+            <fieldset>
+                <legend>Quelle est votre fleur préférée ?</legend>
+                <label><input type="radio" name="flower" value="rose"> Rose</label>
+                <label><input type="radio" name="flower" value="tulipe"> Tulipe</label>
+                <label><input type="radio" name="flower" value="lys"> Lys</label>
+            </fieldset>
+        
+            <input type="submit" value="S'inscrire">
+        </form>
+        
+    </main>
+
+    <script src="fleur.js" defer></script>
+</div>
+</body>
+</html>

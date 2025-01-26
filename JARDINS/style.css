@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f7f7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 150px;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    padding: 50px;
+    height: 600px;
+    background-color: #76856e;
+}
+
+.texttop {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #76856e;
+}
+
+
+.texttop h1, h4{
+    background-color: #76856e;
+    color: white;
+}
+
+.texttop h4{
+    font-size: 25px;
+}
+
+.flower {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #766367;
+    margin-bottom: 40px;
+
+}
+
+.flower1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 100%; 
+    max-width: 1200px;
+    background-color: #766367;
+
+}
+
+.flowerName {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width: 100%; 
+    max-width: 1300px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #766367;
+}
+
+.flowerName h3{
+    background-color: #766367;
+
+}
+
+.flower1 a{
+    background-color: #766367;
+}
+
+
+.imgflower {
+    max-width: 370px; 
+    width: auto; 
+    height: auto; 
+    margin: 20px;
+    transition: transform .5s;
+}
+
+.imgflower:hover {
+    transform: scale(1.04);
+}
+
+.inter {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.inter h5{
+    font-size: 17px;
+}
+
+.phraseInter {
+    padding-right: 150px;
+
+}
+
+.footerExtremite {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #748A9F;
+}
+
+.footerInterieur {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    max-width: 400px;
+    width: 100%;
+    gap: 25px;
+    background-color: #748A9F;
+}
+
+.head {
+    max-height: 50px; 
+    max-width: 100px;
+    width: auto; 
+    height: auto; 
+}
+
+.headimg {
+    max-height: 130px; 
+    max-width: 230px;
+    width: auto; 
+    height: auto; 
+}
+
+.interimg {
+    max-height: 80px; 
+    max-width: 180px;
+    width: auto; 
+    height: auto; 
+}
+
+.footerInterieur img {
+    max-height: 20px; 
+    max-width: 80px;
+    width: auto; 
+    height: auto;
+    background-color: #748A9F; 
+}
+
+.footerExtremite img {
+    max-height: 60px; 
+    max-width: 120px;
+    width: auto; 
+    height: auto;    
+    background-color: #748A9F;
+}
+
+.footerInterieur p{
+    background-color: #748A9F;
+}
+
+.footerInterieur a{
+    background-color: #748A9F    ;
+}
+
+.ExG1, .ExG2, .ExG3, .ExD1, .ExD2, .ExD3{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 45px;
+}
+
+
+.ExG1 h5, .ExG2 h5, .ExG3 h5, .ExD1 h5, .ExD2 h5, .ExD3 h5{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.ExG1, .ExG1 h5{
+    background-color: #8F8080;
+}
+
+.ExG2, .ExG2 h5{
+    background-color: #B08B9E;
+}
+
+.ExG3, .ExG3 h5{
+    background-color: #A97E70;
+}
+
+.ExD1, .ExD1 h5{
+    background-color: #7B626F;
+}
+
+.ExD2, .ExD2 h5{
+    background-color: #B17D81;
+}
+
+.ExD3, .ExD3 h5{
+    background-color: #B0A779;
+}
+
+
+
+.ExG1 img, .ExG2 img, .ExG3 img, .ExD1 img, .ExD2 img, .ExD3 img{
+    border: 17px solid white;
+    border-radius: 10px;
+}
+
+.tf1 {
+    color: #492D60;
+}
+
+.tf2 {
+    color: #A57F7F;
+}
+
+.tf3 {
+    color: #F5AFB7;
+}
+
+.tf4 {
+    color: #720E20;
+}
+
+.tf5 {
+    color: #AA755A;
+}
+
+.tf6 {
+    color: #DF9D05;
+}
+
+.TitleP2 {
+    color: #4C654D;
+    padding: 40px;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) {
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.tab.active {
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+
+#content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content {
+    display: none;
+}
+
+.content.visible {
+    display: block;
+}
+#content .content {
+    display: none; 
+    opacity: 0;    
+    transition: opacity 0.3s ease; 
+}
+
+#content .content.visible {
+    display: block; 
+    opacity: 1;     
+}
+
+#content img {
+    max-width: 100%; 
+    height: auto;    
+    margin: 10px 0;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.bodyInscription {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+form h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Conteneur principal */
+main {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style du formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Bouton d'inscription */
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Liste des erreurs */
+#errorList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+    font-size: 0.9rem;
+    color: red;
+}
+
+/* Fieldset pour le QCM */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+fieldset label {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Messages de succès/erreur pour les champs */
+.error {
+    border: 2px solid red !important;
+    background-color: #ffe6e6 !important;
+}
+
+.success {
+    border: 2px solid green !important;
+    background-color: #e6ffe6 !important;
+}
+
+body.dark-mode {
+    background-color: #121212; /* Couleur de fond sombre */
+    color: #e0e0e0; /* Couleur de texte claire */
+}
+
+header.dark-mode {
+    background-color: #1e1e1e; /* Couleur de fond sombre pour l'en-tête */
+}
+
+footer.dark-mode {
+    background-color: #1e1e1e; /* Couleur de fond sombre pour le pied de page */
+}
+
+form.dark-mode {
+    background-color: #2a2a2a; /* Couleur de fond sombre pour le formulaire */
+}
+
+input.dark-mode {
+    background-color: #3c3c3c; /* Fond sombre pour les champs de texte */
+    color: #e0e0e0; /* Texte clair dans les champs de texte */
+    border: 1px solid #555; /* Bordure sombre pour les champs de texte */
+}
+
+.bodyInscription.dark-mode{
+    background-color: #3c3c3c; /* Fond sombre pour les champs de texte */
+    color: #e0e0e0; /* Texte clair dans les champs de texte */
+    border: 1px solid #555; /* Bordure sombre pour les champs de texte */
+}
+
+
+.ExG1.dark-mode, .ExD1.dark-mode, .ExG2.dark-mode, .ExD2.dark-mode,
+.ExG3.dark-mode, .ExD3.dark-mode {
+    background-color: #2a2a2a; /* Couleur de fond sombre pour les sections de fleurs */
+}
+
+h1.dark-mode, h2.dark-mode, h5.dark-mode {
+    color: #e0e0e0; /* Couleur de texte claire pour les titres */
+}
+
+/* Ajout des styles pour le mode sombre de la page d'inscription */
+
+main.dark-mode {
+    background-color: #2a2a2a; /* Couleur de fond sombre pour le contenu principal */
+    padding: 20px; /* Assurez-vous que le padding est le même pour un bon rendu */
+    border-radius: 5px; /* Coin arrondi pour le formulaire */
+}
+
+input.dark-mode {
+    background-color: #3c3c3c; /* Fond sombre pour les champs de texte */
+    color: #e0e0e0; /* Texte clair dans les champs de texte */
+    border: 1px solid #555; /* Bordure sombre pour les champs de texte */
+}
+
+button.dark-mode {
+    background-color: #555; /* Fond sombre pour les boutons */
+    color: #e0e0e0; /* Texte clair pour les boutons */
+    border: none; /* Retirez la bordure par défaut */
+    padding: 10px 15px; /* Ajoutez du padding pour les boutons */
+    border-radius: 5px; /* Coins arrondis pour les boutons */
+    cursor: pointer; /* Changez le curseur pour montrer que c'est cliquable */
+}
+
+button.dark-mode:hover {
+    background-color: #777; /* Couleur de fond sombre pour le bouton au survol */
+}
+
+/* S'assurer que les titres dans le formulaire sont bien visibles en mode sombre */
+h2.dark-mode {
+    color: #e0e0e0; /* Couleur de texte claire pour le titre du formulaire */
+}
+
+/* Styles pour les listes d'erreurs */
+#errorList.dark-mode {
+    color: #ffdddd; /* Couleur rouge clair pour les messages d'erreur */
+}
+
+/* Styles pour les légendes dans le formulaire */
+legend.dark-mode {
+    color: #e0e0e0; /* Couleur de texte claire pour les légendes */
+}
+
+

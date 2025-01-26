@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+
+    color: #865875;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #dc95ce;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #533648;
+}
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: white;
+}
+
+#combatLog {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+}
+
+body.dark-mode #combatLog {
+    background-color: #000000;
+    border-color: white;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #533648;
+    color: white;
+    border-radius: 5px;
+}
+
+button.dark-mode {
+    background-color: gray;
+}
+
+.nora {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nora img{
+    max-height: 260px; 
+    max-width: 460px;
+    width: auto; 
+    height: auto;
+}
